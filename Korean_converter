@@ -1,0 +1,13 @@
+def korean_converter(num): 
+  while True: 
+    try: 
+      num = int(input("enter your number here : ")) 
+      Korea= ["eel","ee","sam","sa","oh","gook","chil","pal","goo","ship"] 
+      if num <=10: 
+        print(Korea[num]) 
+      else: 
+        print("Pls come back when it has being updated") 
+        break
+    except ValueError: 
+        print("Invalid Value") 
+korean_converter("num") 
